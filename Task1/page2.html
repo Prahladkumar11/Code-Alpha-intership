@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+	<h1>Page 2</h1>
+
+	<!-- Create Form -->
+	<form id="submit" name="submit" method="post" method="post" action="/thanks.html">
+
+		<!-- Details -->
+		<div class="form-control">
+			<label for="name" id="label-name">
+				How often do you engage with entertainment-related content on social media?
+			</label>
+
+			<!-- Input Type Text -->
+			<select name="How often do you engage with entertainment-related content on social media?" id="">
+                <option value="0">Select</option>
+                <option value="Multiple times a day">Multiple times a day</option>
+                <option value="A few times a week">A few times a week</option>
+                <option value="Once a week">Once a week</option>
+                <option value="Rarely">Rarely</option>
+                <option value="Never">Never</option>
+            </select>
+		</div>
+
+		<div class="form-control">
+			<label for="email" id="label-email">
+				Which social media platforms do you use to discover and discuss entertainment content? 
+			</label>
+
+			<select name="Which social media platforms do you use to discover and discuss entertainment content? " id="">
+                <option value="0">Select</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Instagram">Instagram</option>
+                <option value="Twitter">Twitter</option>
+                <option value="Tiktok">Tiktok</option>
+                <option value="Youtube">Youtube</option>
+            </select>
+		</div>
+
+		<div class="form-control">
+			<label for="age" id="label-age">
+				Have you ever made a purchasing decision based on an influencer's endorsement on social media?
+			</label>
+			<select name="Have you ever made a purchasing decision based on an influencer's endorsement on social media?" id="">
+                <option value="0">Select</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              
+            </select>
+		</div>
+		
+		
+        
+        
+        <div class="summit">
+            <!-- Multi-line Text Input Control -->
+		    <button type="submit" value="Next">
+			    Next
+		    </button>
+        </div>
+        <input type="hidden" name="submitDate" id="submitDate" value="">
+        <input type="hidden" name="submitTime" id="submitTime" value="">
+
+	</form>
+
+    <script src="/script.js"></script>
+
+    
+</body>
+</html>

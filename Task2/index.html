@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="/Task2/style.css">
+    <script src="/script.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+
+	<h1>Survey Form</h1>
+
+	<!-- Create Form -->
+	<form id="form" action="" method="post">
+
+		<!-- Details -->
+		<div class="form-control">
+			<label for="name" id="label-name">
+				Name
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="name"
+				placeholder="Enter your name" name="name" />
+		</div>
+
+		<div class="form-control">
+			<label for="email" id="label-email">
+				Email
+			</label>
+
+			<!-- Input Type Email-->
+			<input type="email"
+				id="email"
+				placeholder="Enter your email" name="email" />
+		</div>
+
+		<div class="form-control">
+			<label for="age" id="label-age">
+				Age
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="age"
+				placeholder="Enter your age" name="age" />
+		</div>
+
+        
+        
+        <div class="submit">
+            <div class="g-recaptcha" data-sitekey="6LcFu6InAAAAADE_xmg0ou8aqWHcJWLJO-kstHmG"></div>
+            <!-- Multi-line Text Input Control -->
+            <h3>Would you like to star Survey</h3>
+		<button type="submit" value="Submit">
+			Next
+		</button>
+    </div>
+	</form>
+
+    
+</body>
+</html>
